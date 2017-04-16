@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/one"
+        android:icon="@mipmap/ic_launcher"
+        android:title="app_one" />
+    <item
+        android:id="@+id/two"
+        android:icon="@mipmap/ic_launcher"
+        android:title="app_two" />
+    <item
+        android:id="@+id/three"
+        android:icon="@mipmap/ic_launcher"
+        android:title="app_three" />
+    <item
+        android:id="@+id/four"
+        android:icon="@mipmap/ic_launcher"
+        android:title="app_four" />
+    <item
+        android:id="@+id/five"
+        android:icon="@mipmap/ic_launcher"
+        android:title="app_five" />
+    </group>
+<item android:title="Communicate">
+    <menu>
+        <item
+            android:icon="@mipmap/ic_launcher"
+            android:id="@+id/six"
+            android:title="six" />
+    </menu>
+</item>
+</menu>
